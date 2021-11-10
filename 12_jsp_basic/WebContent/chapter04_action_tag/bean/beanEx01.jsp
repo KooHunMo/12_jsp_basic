@@ -34,7 +34,7 @@
 			<jsp:setProperty name="자바빈" property="이름" value="값" />
 
 				name    : 프로퍼티 값을 변경할 자바빈 객체의 이름.  
-					   액션 태그의 id 속성에서 지정한 값을 사용
+					      액션 태그의 id 속성에서 지정한 값을 사용
 				property : 값을 지정할 프로퍼티의 이름 ( * 을 사용할 경우 전체값을 할당 할 수 있다.)
 				value    : 프로퍼티의 값
 
@@ -42,7 +42,7 @@
 
 			3) 데이터 불러오기
 			
-			<jsp:getProperty name="자바빈" property="이름" />
+			<jsp:getProperty name="자바빈" property="이름"/>
 	
 	 --%>
 	<form action="beanEx01Pro.jsp" method="post">
