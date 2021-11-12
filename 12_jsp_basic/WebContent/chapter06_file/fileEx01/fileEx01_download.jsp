@@ -15,7 +15,7 @@
 		
 		
 		String fileName = request.getParameter("fileName");
-		String downloadFile = "D:\\ABU\\19_web_shared_folder\\workspace\\12_jsp_basic\\WebContent\\img\\" + fileName ; 
+		String downloadFile = "C:\\Users\\hunmo\\git\\12_jsp_basic\\12_jsp_basic\\WebContent\\img\\" + fileName ; 
 	  
 		// 파일을 읽어 스트림에 담기
 		File file = new File(downloadFile);

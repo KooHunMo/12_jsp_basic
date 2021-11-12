@@ -28,7 +28,7 @@
 		 
 		request.setCharacterEncoding("utf-8");
 		 
-		String location = "D:\\ABU\\19_web_shared_folder\\workspace\\12_jsp_basic\\WebContent\\chapter06_file\\file_repo";
+		String location = "C:\\Users\\hunmo\\git\\12_jsp_basic\1\2_jsp_basic\\WebContent\\chapter06_file\\file_repo";
 	 
 		// MultipartRequest 이 코드가 실제로 파일 업로드를 담당하는 부분이다.
 		MultipartRequest multi = new MultipartRequest(request,
@@ -43,7 +43,7 @@
 		String userName = multi.getParameter("userName");
 		
 		Enumeration<?> files = multi.getFileNames(); // <input type="file">인 모든 파라메타를 반환
-		
+		// Enumeration: 열거
 		String element          = "";
 		String filesystemName   = "";
 		String originalFileName = "";	
